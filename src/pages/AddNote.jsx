@@ -30,7 +30,7 @@ export default function AddNote({ createNote }) {
           <form onSubmit={handleAddNote} className="modal-body">
             <div className="mb-3">
               <label htmlFor="exampleFormControlInput1" className="form-label">
-                Title
+                Judul
               </label>
               <input
                 autoFocus
@@ -46,7 +46,7 @@ export default function AddNote({ createNote }) {
                 htmlFor="exampleFormControlTextarea1"
                 className="form-label"
               >
-                Body
+                Deskripsi
               </label>
               <textarea
                 onChange={(e) => setBody(e.target.value)}
